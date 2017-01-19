@@ -39,12 +39,14 @@
 
 ###4 . 复制如下代码到Activity
 
+	public void showDialog(View view){
 		 new MaterialDialog.Builder(this)
-                .title("这是标题")
-                .content("这是描述的内容")
-                .positiveText("确定")
-                .negativeText("取消")
-                .show();
+			.title("这是标题")
+			.content("这是描述的内容")
+			.positiveText("确定")
+			.negativeText("取消")
+			.show();
+	}
 
 #### 细节注意:
 
