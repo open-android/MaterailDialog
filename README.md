@@ -26,7 +26,7 @@
 
 ### 2. 在Module的build.gradle添加依赖
 
-     compile 'com.github.open-android:MaterialDialog:v1.0.1'
+     compile 'com.github.open-android:MaterialDialog:1.0.0'
 
 
 ### 3. 复制如下代码到xml
